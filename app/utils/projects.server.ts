@@ -4,11 +4,11 @@ import { fileURLToPath } from "url";
 import { Project } from "./ProjectType";
 
 // Convert `import.meta.url` to a file path
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const file = fileURLToPath(import.meta.url);
+const dir = path.dirname(file);
 
 // Define the path to the JSON file
-const projectsFilePath = path.join(__dirname, "..", "data", "projects.json");
+const projectsFilePath = path.join(dir, "..", "data", "projects.json");
 
 // Function to get all projects from the JSON file
 export async function getProjects(): Promise<Project[]> {
