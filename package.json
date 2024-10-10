@@ -16,8 +16,10 @@
     "@remix-run/node": "^2.12.1",
     "@remix-run/react": "^2.12.1",
     "@remix-run/serve": "^2.12.1",
+    "autoprefixer": "^10.4.20",
     "framer-motion": "^11.11.7",
-    "isbot": "^4.1.0"
+    "isbot": "^4.1.0",
+    "postcss": "^8.4.47"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.12.1",
