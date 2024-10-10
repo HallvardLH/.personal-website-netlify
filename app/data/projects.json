@@ -1,0 +1,147 @@
+[
+    {
+        "id": "fun-libs",
+        "title": "Fun Libs",
+        "byline": "Word game app created with React Native",
+        "description": [
+            "Fun Libs is perhaps the project that I am the most proud of. Since its release in August of 2023, it has been downloaded over 24,000 times with hundreds of daily active users (as of October 2024)!",
+            "The app was created in cooperation with Asgeir Albretsen, and the initial mvp was developed during the summer of 2023. This coinsided with my personal goal of learing a new framework in one summer, which ended up being React Native."
+        ],
+        "technologies": [
+            "React Native",
+            "TypeScript",
+            "Supabase"
+        ],
+        "date": "2023-05-01",
+        "github": "https://github.com/Albretsen/FunLibs",
+        "demo": "https://yourwebsite.com/demo",
+        "image": "project-images/fun-libs-0-feature.png",
+        "gallery": [
+            "project-images/fun-libs-0.png",
+            "project-images/fun-libs-1.png",
+            "project-images/fun-libs-2.png",
+            "project-images/fun-libs-3.png",
+            "project-images/fun-libs-4.png"
+        ],
+        "gallery-descriptions": [
+            "Official libs written by the Fun Libs team (Asgeir and I)"
+        ]
+    },
+    {
+        "id": "emoji-tycoon",
+        "title": "Emoji Tycoon",
+        "byline": "Incremental mobile game created with React Native",
+        "description": [
+            "Emoji Tycoon is one of my current projects: a mobile game in which the objective is to get as many emojis as possible. This is initially done through tapping one big emoji, which in turn allows for unlocking buildings that create emojis for you, such as drawing hands, art studios and farms. It is heavily inspired by Cookie Clicker.",
+            "My love for Cookie Clicker is in fact the reason why I decided to create Emoji Tycoon in the first place. I remember the first time playing Cookie Clicker in 2016, I had never played something that felt so... good before. Seeing the numbers go up and up at an exponential rate was just so satisfying. I wanted not only to play such a game, but create on as well.",
+            "The main design idea behind Emoji Tycoon is sort of a self-imposed challenge: create a game using only emojis as illustrations. I thought it would be an interesting idea to work with such a limited palette for several reasons, chiefly because I'm just not great at drawing, and this would mean not having to worry about that part at all. Secondly, it gives the game a theme from the get-go, a good starting point for churning out emoji-producing-buildings."
+        ],
+        "technologies": [
+            "React Native",
+            "TypeScript"
+        ],
+        "date": "2023-09-15",
+        "github": "https://github.com/HallvardLH/emoji-tycoon",
+        "image": "project-images/emoji-tycoon-0-feature.png",
+        "gallery": [
+            "project-images/emoji-tycoon-0.png",
+            "project-images/emoji-tycoon-1.png",
+            "project-images/emoji-tycoon-2.png",
+            "project-images/emoji-tycoon-3.png"
+        ]
+    },
+    {
+        "id": "tryggere-hyring",
+        "title": "Tryggerehyring.no",
+        "byline": "Website created with HTML, CSS and JavaScript",
+        "description": [
+            "Tryggerehyring.no was a project by Asgeir Albretsen and I. The idea was to provide affordable and thorough background checks for employers.",
+            "The service never got off its feet, but I did end up creating a website for it. The website was created with the vanilla web technologies: HTML, CSS and JavaScript, no framework required!",
+            "In hindsight, using a framework would likely have been a fair bit faster. Then again, sometimes vanilla is just a good a flavor as any."
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "date": "2023-09-15",
+        "github": "https://github.com/HallvardLH/OreMiner",
+        "demo": "https://hallvardlh.github.io/OreMiner/",
+        "image": "project-images/tryggere-hyring-0-feature.png",
+        "gallery": [
+            "project-images/rain-catcher-0.png",
+            "project-images/rain-catcher-1.png",
+            "project-images/rain-catcher-2.png"
+        ]
+    },
+    {
+        "id": "rain-catcher",
+        "title": "Rain Catcher",
+        "byline": "App created with HTML, CSS and JavaScript using Apache Cordova",
+        "description": [
+            "Rain Catcher is one of my first apps. It's a simple game about preventing raindrops from hitting a sleeping cat. It also allowed for purchasing a cat of a different color once you'd collected enough golden raindrops.",
+            "Rain Catcher was developed using Apache Cordova (formerly PhoneGap), which enabled me to build the app using standard web technologies like HTML, CSS, and JavaScript. This approach created a mobile-optimized website wrapped in a native webview, allowing it to function as a downloadable app, although not as a fully native application.",
+            "The app did not get any downloads to speak of, and was overall not particularily good. It was, however, a fun project, and a good learning experience."
+        ],
+        "technologies": [
+            "JavaScript",
+            "CSS",
+            "Cordova"
+        ],
+        "date": "2023-09-15",
+        "github": "https://github.com/HallvardLH/Rain-Catcher",
+        "demo": "https://hallvardlh.github.io/Rain-Catcher/",
+        "image": "project-images/rain-catcher-0-feature.png",
+        "gallery": [
+            "project-images/rain-catcher-0.png",
+            "project-images/rain-catcher-1.png",
+            "project-images/rain-catcher-2.png"
+        ]
+    },
+    {
+        "id": "ore-miner",
+        "title": "Ore Miner",
+        "byline": "App created with HTML, CSS and JavaScript using Apache Cordova",
+        "description": [
+            "Ore Miner is one of my first apps. It's an incremental game about mining ores. These ores can be sold raw, or refined to ingots."
+        ],
+        "technologies": [
+            "JavaScript",
+            "CSS",
+            "Cordova"
+        ],
+        "date": "2023-09-15",
+        "github": "https://github.com/HallvardLH/OreMiner",
+        "demo": "https://hallvardlh.github.io/OreMiner/",
+        "image": "project-images/ore-miner-0-feature.png",
+        "gallery": [
+            "project-images/ore-miner-0.png",
+            "project-images/ore-miner-1.png",
+            "project-images/ore-miner-2.png",
+            "project-images/ore-miner-3.png"
+        ]
+    },
+    {
+        "id": "tree-cutter",
+        "title": "Tree Cutter",
+        "byline": "Browser game created with HTML, CSS and JavaScript",
+        "description": [
+            "Tree Cutter is my very first project. It is what got me started on this journey."
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "date": "2023-09-15",
+        "github": "https://github.com/HallvardLH/OreMiner",
+        "demo": "https://hallvardlh.github.io/OreMiner/",
+        "image": "project-images/tree-cutter-0-feature.png",
+        "gallery": [
+            "project-images/ore-miner-0.png",
+            "project-images/ore-miner-1.png",
+            "project-images/ore-miner-2.png",
+            "project-images/ore-miner-3.png"
+        ]
+    }
+]

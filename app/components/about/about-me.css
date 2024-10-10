@@ -1,0 +1,14 @@
+.about-me-image-section {
+    display: grid;
+    grid-template-columns: 1fr 0.45fr;
+    gap: 2rem;
+    /* align-items: center; */
+}
+
+.image-left {
+    grid-template-columns: 0.45fr 1fr;
+}
+
+.about-me-section {
+    margin-bottom: 2rem;
+}

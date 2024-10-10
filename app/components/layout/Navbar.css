@@ -1,0 +1,22 @@
+.container {
+    /* position: fixed; */
+    /* height: 100px; */
+    width: 100%;
+    background-color: beige;
+    padding: 2rem 0;
+    max-width: none;
+}
+
+.navbar-inner {}
+
+.navbar-list {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar-inner ul>* {
+    margin: 0 .5em;
+    padding: .5em;
+}

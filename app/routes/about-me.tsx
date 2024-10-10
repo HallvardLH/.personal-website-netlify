@@ -1,18 +1,18 @@
 import type { MetaFunction } from "@remix-run/node";
 import PageContainer from "~/components/layout/pageContainer";
-import Hero from "~/components/home/Hero";
+import AboutMe from "~/components/about/AboutMe";
 
 export const meta: MetaFunction = () => {
     return [
-        { title: "Hallvard Hetlelid | Front-end Developer" },
-        { name: "description", content: "Front page!" },
+        { title: "About Me | Hallvard Hetlelid" },
+        { name: "description", content: "About me" },
     ];
 };
 
 export default function Index() {
     return (
         <PageContainer>
-            <Hero />
+            <AboutMe />
         </PageContainer>
     );
 }

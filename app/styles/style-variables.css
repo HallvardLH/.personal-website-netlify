@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #255b98;
+    --secondary-color: #1a7f78;
+    --background-color: white;
+    --text: black;
+    --text-light: white;
+
+    --text-size-heading: 6.5rem;
+    --text-size-normal: 1.1rem;
+}
