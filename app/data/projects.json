@@ -51,8 +51,8 @@
         ]
     },
     {
-        "id": "tryggere-hyring",
-        "title": "Tryggerehyring.no",
+        "id": "tryggerehyring",
+        "title": "Tryggere hyring.no",
         "byline": "Website created with HTML, CSS and JavaScript",
         "description": [
             "Tryggerehyring.no was a project by Asgeir Albretsen and I. The idea was to provide affordable and thorough background checks for employers.",
@@ -65,14 +65,8 @@
             "JavaScript"
         ],
         "date": "2023-09-15",
-        "github": "https://github.com/HallvardLH/OreMiner",
-        "demo": "https://hallvardlh.github.io/OreMiner/",
-        "image": "project-images/tryggere-hyring-0-feature.png",
-        "gallery": [
-            "project-images/rain-catcher-0.png",
-            "project-images/rain-catcher-1.png",
-            "project-images/rain-catcher-2.png"
-        ]
+        "github": "https://github.com/HallvardLH/tryggerehyring-website",
+        "image": "project-images/tryggere-hyring-0-feature.png"
     },
     {
         "id": "rain-catcher",

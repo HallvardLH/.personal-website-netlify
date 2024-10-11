@@ -5,7 +5,7 @@ import Hero from "~/components/home/Hero";
 export const meta: MetaFunction = () => {
     return [
         { title: "Hallvard Hetlelid | Front-end Developer" },
-        { name: "description", content: "Front page!" },
+        { name: "description", content: "Front page" },
     ];
 };
 

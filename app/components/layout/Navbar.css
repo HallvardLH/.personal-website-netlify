@@ -2,12 +2,14 @@
     /* position: fixed; */
     /* height: 100px; */
     width: 100%;
-    background-color: beige;
+    background-color: var(--primary-color);
     padding: 2rem 0;
     max-width: none;
 }
 
-.navbar-inner {}
+.navbar-inner a {
+    color: wheat;
+}
 
 .navbar-list {
     display: flex;

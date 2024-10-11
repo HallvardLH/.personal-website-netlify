@@ -2,6 +2,13 @@ import { motion } from "framer-motion";
 import PageContainer from "~/components/layout/pageContainer";
 import ProjectPreview from "~/components/project/ProjectPreview";
 import projectsData from "~/data/projects.json";
+import type { MetaFunction } from "@remix-run/node";
+
+export const meta: MetaFunction = () => {
+    return [
+        { title: "Portfolio | Hallvard Hetlelid" },
+    ];
+};
 
 export default function Projects() {
     const projects = projectsData;

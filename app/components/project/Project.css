@@ -35,10 +35,14 @@
 
 .project-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr;
 }
 
 .project-grid-right {
+    margin-top: 2rem;
+}
+
+.project-links {
     margin-top: 2rem;
 }
 

@@ -3,6 +3,13 @@ import { useLoaderData } from "@remix-run/react";
 import Project from "~/components/project/Project";
 import "../components/project/Project.css";
 import projectsData from "~/data/projects.json";
+import type { MetaFunction } from "@remix-run/node";
+
+export const meta: MetaFunction = () => {
+    return [
+        { title: "Fun Libs | Hallvard Hetlelid" },
+    ];
+};
 
 export const loader = async () => {
     const project = projectsData.find((p) => p.id === "fun-libs");
