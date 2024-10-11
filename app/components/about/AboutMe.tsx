@@ -1,21 +1,7 @@
 import { Link } from "@remix-run/react";
-import { motion } from "framer-motion";
-import { ReactNode } from "react";
 import "./about-me.css";
 import BigCookie from "./BigCookie";
-
-function AnimateOnView({ children }: { children: ReactNode }) {
-    return (
-        <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-            viewport={{ once: true, amount: 0.15 }}
-        >
-            {children}
-        </motion.div>
-    )
-}
+import AnimateOnView from "../AnimateOnView";
 
 export default function AboutMe() {
     return (

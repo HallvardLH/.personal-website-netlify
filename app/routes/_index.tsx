@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import PageContainer from "~/components/layout/pageContainer";
 import Hero from "~/components/home/Hero";
+import AnimateOnView from "~/components/AnimateOnView";
 
 export const meta: MetaFunction = () => {
     return [
@@ -12,7 +13,9 @@ export const meta: MetaFunction = () => {
 export default function Index() {
     return (
         <PageContainer>
-            <Hero />
+            <AnimateOnView>
+                <Hero />
+            </AnimateOnView>
         </PageContainer>
     );
 }

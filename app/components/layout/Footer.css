@@ -1,0 +1,27 @@
+footer {
+    height: 8rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    margin-top: 16rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+}
+
+footer a,
+footer p {
+    color: wheat;
+}
+
+.footer-list {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer ul>* {
+    margin: 0 .5em;
+    padding: .5em;
+}

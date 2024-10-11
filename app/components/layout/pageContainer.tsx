@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import "./pageContainer.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 interface PageContainerProps {
     children: ReactNode;
@@ -17,6 +18,7 @@ export default function PageContainer(props: PageContainerProps) {
             <div className={`page-container ${maxWidth ? "max-w-screen-lg" : "max-w-full"}`}>
                 {children}
             </div>
+            <Footer />
         </div>
     )
 }
