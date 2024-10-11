@@ -1,17 +1,15 @@
 import { json } from "@remix-run/node";
-import { getProjects } from "~/utils/projects.server";
 import { useLoaderData } from "@remix-run/react";
 import Project from "~/components/project/Project";
+import projectsData from "~/data/projects.json";
 
 export const loader = async () => {
-    const projects = await getProjects();
-    const project = projects.find((p) => p.id.toString() === "emoji-tycoon");
+    const project = projectsData.find((p) => p.id === "emoji-tycoon");
 
     if (!project) {
         throw new Response("Not Found", { status: 404 });
     }
     return json({ project });
-
 };
 
 export default function ProjectDetail() {

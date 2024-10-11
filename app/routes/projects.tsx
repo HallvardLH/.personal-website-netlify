@@ -1,21 +1,15 @@
-import { useLoaderData } from "@remix-run/react";
-import { getProjects } from "~/utils/projects.server";
+import { motion } from "framer-motion";
 import PageContainer from "~/components/layout/pageContainer";
 import ProjectPreview from "~/components/project/ProjectPreview";
-import { motion } from "framer-motion";
-
-export const loader = async () => {
-    const projects = await getProjects();
-    return { projects };
-};
+import projectsData from "~/data/projects.json";
 
 export default function Projects() {
-    const { projects } = useLoaderData<typeof loader>();
+    const projects = projectsData;
 
     return (
         <PageContainer maxWidth={false}>
             <h1 className="header max-w-screen-lg m-auto">Portfolio</h1>
-            <ul className="" style={{ marginTop: "6rem" }}>
+            <ul style={{ marginTop: "6rem" }}>
                 {projects.map((project, index) => (
                     <motion.li
                         key={project.id}

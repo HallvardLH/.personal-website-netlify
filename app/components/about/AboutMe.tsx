@@ -10,7 +10,7 @@ function AnimateOnView({ children }: { children: ReactNode }) {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            viewport={{ once: true, amount: 0.25 }}
+            viewport={{ once: true, amount: 0.15 }}
         >
             {children}
         </motion.div>
@@ -22,7 +22,7 @@ export default function AboutMe() {
         <div>
             <h1 className="header">About me</h1>
             <AnimateOnView>
-                <h2 className="subheader">Programming</h2>
+                <h2 className="subheader">Intro</h2>
                 <p className="normal-text about-me-section">
                     I starting programming some time around the end of 2018 and since then, programming has been my biggest hobby. I try to always have some project going, something to work on whenever I have the time.
                 </p>

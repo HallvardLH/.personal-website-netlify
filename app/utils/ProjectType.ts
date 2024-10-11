@@ -1,11 +1,11 @@
 import { BrandType } from "~/components/project/logo";
 
 export type Project = {
-    id: number;
+    id: string;
     title: string;
     byline: string;
     description: string[];
-    technologies: BrandType[];
+    technologies: BrandType[] | string[];
     date: string;
     github: string;
     image: string;
