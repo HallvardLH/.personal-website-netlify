@@ -19,7 +19,7 @@ export const loader = async () => {
     return json({ project });
 };
 
-export default function ProjectDetail() {
+export default function Tryggerehyring() {
     const { project } = useLoaderData<typeof loader>();
     return (
         <Project project={project}

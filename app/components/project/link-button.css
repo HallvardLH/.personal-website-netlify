@@ -1,0 +1,14 @@
+.link-button {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-logo {
+    width: 2rem;
+}
+
+.store-logo {
+    min-height: 3.7rem;
+}

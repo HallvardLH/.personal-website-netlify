@@ -6,12 +6,12 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
     return [
-        { title: "Tree Cutter | Hallvard Hetlelid" },
+        { title: "Daily Jokes | Hallvard Hetlelid" },
     ];
 };
 
 export const loader = async () => {
-    const project = projectsData.find((p) => p.id === "tree-cutter");
+    const project = projectsData.find((p) => p.id === "daily-jokes");
 
     if (!project) {
         throw new Response("Not Found", { status: 404 });
@@ -19,7 +19,7 @@ export const loader = async () => {
     return json({ project });
 };
 
-export default function TreeCutter() {
+export default function DailyJokes() {
     const { project } = useLoaderData<typeof loader>();
     return (
         <Project project={project}

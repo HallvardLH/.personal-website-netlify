@@ -5,10 +5,17 @@
     background-color: var(--primary-color);
     padding: 2rem 0;
     max-width: none;
+    position: relative
 }
 
 .navbar-inner a {
-    color: wheat;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.navbar-inner a:hover {
+    color: hotpink;
+    font-size: 1.25rem;
 }
 
 .navbar-list {

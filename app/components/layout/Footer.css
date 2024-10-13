@@ -12,7 +12,8 @@ footer {
 
 footer a,
 footer p {
-    color: wheat;
+    color: white;
+    font-size: 1rem;
 }
 
 .footer-list {

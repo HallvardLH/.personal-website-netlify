@@ -5,6 +5,9 @@ import { Project as ProjectType } from "~/utils/ProjectType";
 import Logo from "./logo";
 import { Fragment, ReactNode } from "react";
 import ImageWithCaption from "../general/imageWithCaption/ImageWithCaption";
+import LinkButton from "./LinkButton";
+import AppStore from "./AppStore";
+import PlayStore from "./PlayStore";
 
 type ProjectProps = {
     project: ProjectType;
@@ -33,9 +36,16 @@ export default function Project({ project, customDescription }: ProjectProps) {
                         </div>
                     )}
                     <div className="project-links">
-                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                        <LinkButton link={project.github} variant="Github" />
+                        {/* <a href={project.github} target="_blank" rel="noopener noreferrer">
                             <button className="button">View on GitHub</button>
-                        </a>
+                        </a> */}
+                        {/* {project.play_store && (
+                            <PlayStore link={project.play_store} />
+                        )}
+                        {project.app_store && (
+                            <AppStore link={project.app_store} />
+                        )} */}
                         {/* {project.demo && (
                     <>
                         {" | "}

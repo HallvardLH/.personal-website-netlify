@@ -31,6 +31,7 @@
 .project-description {
     font-size: 1.1rem;
     line-height: 1.6;
+    margin-top: 2rem;
 }
 
 .project-grid {
@@ -46,7 +47,10 @@
 }
 
 .project-links {
+    display: flex;
     margin-top: 2rem;
+    gap: 1rem;
+    align-items: center;
 }
 
 .project-links a {
