@@ -21,7 +21,7 @@ export default function LinkButton({ link, variant }: LinkButtonProps) {
             imageSrc: "/images/playstore-logo.png",
         },
         "App Store": {
-            text: null,
+            text: "View on App Store",
             imageSrc: "/icons/App-store.svg",
         },
     };

@@ -8,8 +8,11 @@
 
 /* Mobile */
 @media only screen and (max-width: 550px) {
-    .header {
+
+    .header,
+    .byline {
         text-align: center;
+        margin-top: 0 !important;
     }
 }
 

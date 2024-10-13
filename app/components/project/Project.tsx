@@ -35,26 +35,6 @@ export default function Project({ project, customDescription }: ProjectProps) {
                             ))}
                         </div>
                     )}
-                    <div className="project-links">
-                        <LinkButton link={project.github} variant="Github" />
-                        {/* <a href={project.github} target="_blank" rel="noopener noreferrer">
-                            <button className="button">View on GitHub</button>
-                        </a> */}
-                        {/* {project.play_store && (
-                            <PlayStore link={project.play_store} />
-                        )}
-                        {project.app_store && (
-                            <AppStore link={project.app_store} />
-                        )} */}
-                        {/* {project.demo && (
-                    <>
-                        {" | "}
-                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                            Live Demo
-                        </a>
-                    </>
-                )} */}
-                    </div>
                 </div>
                 <div className="project-grid-right">
                     <div className="project-technologies">
@@ -65,6 +45,33 @@ export default function Project({ project, customDescription }: ProjectProps) {
                     <MainImage src={project.image} alt={project.title} />
                 </div>
             </div>
+            <div className="project-links">
+                <LinkButton link={project.github} variant="Github" />
+                {project.play_store && (
+                    <LinkButton link={project.play_store} variant="Play Store" />
+                )}
+                {project.app_store && (
+                    <LinkButton link={project.app_store} variant="App Store" />
+                )}
+                {/* <a href={project.github} target="_blank" rel="noopener noreferrer">
+                            <button className="button">View on GitHub</button>
+                        </a> */}
+                {/* {project.play_store && (
+                            <PlayStore link={project.play_store} />
+                        )}
+                        {project.app_store && (
+                            <AppStore link={project.app_store} />
+                        )} */}
+                {/* {project.demo && (
+                    <>
+                        {" | "}
+                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                            Live Demo
+                        </a>
+                    </>
+                )} */}
+            </div>
+            <p className="subheader mt-8">Gallery</p>
             <div className="project-gallery">
                 {project.gallery && project.gallery.map((src, index) => (
                     <ImageWithCaption maxCaptionWidth="280px" key={index} caption={project.gallery_captions ? project.gallery_captions[index] : ""}>
