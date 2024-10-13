@@ -23,8 +23,12 @@
             "project-images/fun-libs-3.png",
             "project-images/fun-libs-4.png"
         ],
-        "gallery-descriptions": [
-            "Official libs written by the Fun Libs team (Asgeir and I)"
+        "gallery_captions": [
+            "Official libs written by the Fun Libs team (Asgeir and I)",
+            "Playing a lib. Fill in the given word.",
+            "The resulting lib.",
+            "User can create their own libs and post them for others to play.",
+            "A user profile"
         ]
     },
     {
@@ -48,6 +52,12 @@
             "project-images/emoji-tycoon-1.png",
             "project-images/emoji-tycoon-2.png",
             "project-images/emoji-tycoon-3.png"
+        ],
+        "gallery_captions": [
+            "The store. Buy buildings to get more emojis per second (eps).",
+            "Tapping the big emoji gives emojis.",
+            "Buy upgrades to increase emoiji production even more!",
+            "Tapping the big emoji, with magic emoji effects that boost production."
         ]
     },
     {

@@ -1,10 +1,10 @@
 .hero-outer-container {
     display: grid;
     grid-template-columns: 20rem 1fr;
-
     border-radius: 1rem;
     gap: 1rem;
     position: relative;
+    justify-content: center;
 }
 
 .hero-background {
@@ -59,20 +59,60 @@
     overflow: hidden;
     aspect-ratio: 1.5 / 2;
     height: 20rem;
+    /* height: calc(20% + 50vw); */
     max-height: 28rem;
     justify-self: center;
 }
 
 .hero-profile-picture {
     object-fit: cover;
-    /* max-height: 20rem; */
     height: 100%;
-
 }
 
 @media only screen and (max-width: 1200px) {
     .hero-profile-picture-container {
-        aspect-ratio: unset;
-        height: auto;
+        /* aspect-ratio: unset; */
+        /* height: auto; */
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hero-outer-container {
+        grid-template-columns: unset;
+        grid-template-rows: auto 1fr;
+        gap: 0.1rem;
+    }
+
+    .hero-profile-picture-container {
+        /* height: 14rem; */
+        aspect-ratio: 1.25 / 1;
+    }
+
+    .hero-profile-picture {
+        width: 100%;
+        object-position: 50% 15%;
+    }
+
+    .hero-header {
+        font-size: calc(1.6rem + 4vw);
+    }
+
+    .hero-byline {
+        font-size: calc(0.3rem + 4vw);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero-header {
+        font-size: 2.5rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .hero-byline {
+        font-size: 1.5rem;
+    }
+
+    .hero-profile-picture-container {
+        aspect-ratio: 1 / 1;
     }
 }

@@ -6,6 +6,13 @@
     line-height: 5.5rem;
 }
 
+/* Mobile */
+@media only screen and (max-width: 550px) {
+    .header {
+        text-align: center;
+    }
+}
+
 .subheader {
     color: var(--primary-color);
     font-size: 3.5rem;

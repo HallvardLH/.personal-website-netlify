@@ -12,7 +12,7 @@ type ProjectProps = {
 export default function ProjectPreview({ project, colored }: ProjectProps) {
     return (
         <div className={`preview-card ${colored ? "preview-card-colored" : null}`}>
-            <div className="project-grid preview-grid max-w-screen-lg m-auto">
+            <div className="project-grid project-grid-left preview-grid max-w-screen-lg m-auto">
                 <div>
                     <h1 className={`preview-header ${colored ? "preview-header-colored" : null}`}>{project.title}</h1>
                     <h2 className="byline preview-byline">{project.byline}</h2>
@@ -21,13 +21,15 @@ export default function ProjectPreview({ project, colored }: ProjectProps) {
                         <br />
                         <p>{project.description[1]}</p>
                     </div>
-                    <div className="project-technologies preview-technologies">
+                    <div className="preview-bottom">
                         <Link to={`/${project.id}`}>
                             <button className={`button ${colored ? "button-colored" : null}`}>Read more</button>
                         </Link>
-                        {project.technologies.map((technology, index) => (
-                            <Logo key={index} brand={technology} />
-                        ))}
+                        <div className="project-technologies preview-technologies">
+                            {project.technologies.map((technology, index) => (
+                                <Logo key={index} brand={technology} />
+                            ))}
+                        </div>
                     </div>
                 </div>
                 <div className="project-grid-right">

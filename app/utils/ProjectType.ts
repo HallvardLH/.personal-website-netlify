@@ -10,5 +10,6 @@ export type Project = {
     github: string;
     image: string;
     gallery?: string[];
+    gallery_captions?: string[];
     demo?: string;
 };

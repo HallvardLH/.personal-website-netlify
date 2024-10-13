@@ -15,7 +15,7 @@ export default function PageContainer(props: PageContainerProps) {
             <header>
                 <Navbar />
             </header>
-            <div className={`page-container ${maxWidth ? "max-w-screen-lg" : "max-w-full"}`}>
+            <div className={`page-container ${maxWidth ? "max-w-screen-lg" : "max-w-full"} ${maxWidth ? null : "no-margin"}`}>
                 {children}
             </div>
             <Footer />

@@ -6,6 +6,7 @@ footer {
     align-items: center;
     justify-content: center;
     display: flex;
+    position: relative;
     bottom: 0;
 }
 
@@ -24,4 +25,10 @@ footer p {
 footer ul>* {
     margin: 0 .5em;
     padding: .5em;
+}
+
+@media only screen and (max-width: 550px) {
+    footer {
+        margin-top: 4rem;
+    }
 }

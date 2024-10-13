@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./about-me.css";
 
 export default function BigCookie() {
     const [cookies, setCookies] = useState(0);
@@ -7,9 +8,11 @@ export default function BigCookie() {
     };
 
     return (
-        <div>
-            {cookies > 0 && (
-                <p className="subheader text-center">{cookies} cookies</p>
+        <div className="cookie-container">
+            {cookies > 0 ? (
+                <p className="subheader text-center" style={cookies >= 100 ? { fontSize: "2.5rem" } : { fontSize: "3.5rem" }}>{cookies} cookies</p>
+            ) : (
+                <p className="subheader text-center"></p>
             )}
             <button
                 onClick={clickCookie}

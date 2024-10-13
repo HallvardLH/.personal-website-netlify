@@ -4,6 +4,7 @@ import "./Project.css";
 import { Project as ProjectType } from "~/utils/ProjectType";
 import Logo from "./logo";
 import { Fragment, ReactNode } from "react";
+import ImageWithCaption from "../general/imageWithCaption/ImageWithCaption";
 
 type ProjectProps = {
     project: ProjectType;
@@ -14,7 +15,7 @@ export default function Project({ project, customDescription }: ProjectProps) {
     return (
         <PageContainer>
             <div className="project-grid">
-                <div>
+                <div className="project-grid-left">
                     <h1 className="header">{project.title}</h1>
                     <h2 className="byline">{project.byline}</h2>
                     {customDescription ? (
@@ -56,7 +57,9 @@ export default function Project({ project, customDescription }: ProjectProps) {
             </div>
             <div className="project-gallery">
                 {project.gallery && project.gallery.map((src, index) => (
-                    <img key={index} style={{ height: "36rem" }} src={src} alt="" />
+                    <ImageWithCaption maxCaptionWidth="280px" key={index} caption={project.gallery_captions ? project.gallery_captions[index] : ""}>
+                        <img style={{ height: "36rem" }} src={src} alt="" />
+                    </ImageWithCaption>
                 ))}
             </div>
 

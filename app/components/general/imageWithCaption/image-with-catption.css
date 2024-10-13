@@ -1,0 +1,10 @@
+.image-with-caption-container {
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+}

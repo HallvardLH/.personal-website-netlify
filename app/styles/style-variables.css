@@ -8,3 +8,19 @@
     --text-size-heading: 6.5rem;
     --text-size-normal: 1.1rem;
 }
+
+/* Mobile */
+@media only screen and (max-width: 550px) {
+    :root {
+        --text-size-heading: 4.5rem;
+        --text-size-normal: 1.1rem;
+    }
+}
+
+/* Really small screen! */
+@media only screen and (max-width: 350px) {
+    :root {
+        --text-size-heading: 3.5rem;
+        --text-size-normal: 0.9rem;
+    }
+}

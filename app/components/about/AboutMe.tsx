@@ -1,7 +1,8 @@
 import { Link } from "@remix-run/react";
 import "./about-me.css";
 import BigCookie from "./BigCookie";
-import AnimateOnView from "../AnimateOnView";
+import AnimateOnView from "../general/AnimateOnView";
+import ImageWithCaption from "../general/imageWithCaption/ImageWithCaption";
 
 export default function AboutMe() {
     return (
@@ -13,7 +14,7 @@ export default function AboutMe() {
                     I starting programming some time around the end of 2018 and since then, programming has been my biggest hobby. I try to always have some project going, something to work on whenever I have the time.
                 </p>
             </AnimateOnView>
-            <AnimateOnView>
+            <AnimateOnView amount={0.05}>
                 <div className="about-me-image-section">
                     <div>
                         <h2 className="subheader">How it started</h2>
@@ -31,8 +32,12 @@ export default function AboutMe() {
                         </p>
                     </div>
                     <div>
-                        <BigCookie />
-                        <img style={{ objectFit: "cover" }} src="/project-images/emoji-tycoon-0-feature.png" alt="A phone running Emoji Tycoon" />
+                        <ImageWithCaption caption="The titular cookie from Cookie Clicker. Go on, give it a click.">
+                            <BigCookie />
+                        </ImageWithCaption>
+                        <ImageWithCaption caption="My current project, Emoji Tycoon, inspired by Cookie Clicker.">
+                            <img style={{ objectFit: "cover" }} src="/project-images/emoji-tycoon-0-feature.png" alt="A phone running Emoji Tycoon" />
+                        </ImageWithCaption>
                     </div>
                 </div>
             </AnimateOnView>
