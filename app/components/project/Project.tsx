@@ -75,7 +75,7 @@ export default function Project({ project, customDescription }: ProjectProps) {
             <div className="project-gallery">
                 {project.gallery && project.gallery.map((src, index) => (
                     <ImageWithCaption maxCaptionWidth="280px" key={index} caption={project.gallery_captions ? project.gallery_captions[index] : ""}>
-                        <img style={{ height: "36rem" }} src={src} alt="" />
+                        <img style={{ height: "36rem", objectFit: "contain" }} src={src} alt="" />
                     </ImageWithCaption>
                 ))}
             </div>
