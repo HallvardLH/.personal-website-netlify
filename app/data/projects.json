@@ -131,6 +131,11 @@
             "project-images/rain-catcher-0.png",
             "project-images/rain-catcher-1.png",
             "project-images/rain-catcher-2.png"
+        ],
+        "gallery_captions": [
+            "The main game screen, prevent the cat from getting wet!",
+            "The landing page.",
+            "Unlock different cats with your newly earned golden raindrops."
         ]
     },
     {
@@ -138,7 +143,8 @@
         "title": "Ore Miner",
         "byline": "App created with HTML, CSS and JavaScript using Apache Cordova",
         "description": [
-            "Ore Miner is one of my first apps. It's an incremental game about mining ores. These ores can be sold raw, or refined to ingots."
+            "Ore Miner is one of my first apps. It's an incremental game about mining ores. These ores can be sold raw, or refined to ingots.",
+            "The appo was published on the Play Store, but never got more than 10 downloads."
         ],
         "technologies": [
             "JavaScript",
@@ -154,6 +160,12 @@
             "project-images/ore-miner-1.png",
             "project-images/ore-miner-2.png",
             "project-images/ore-miner-3.png"
+        ],
+        "gallery_captions": [
+            "The store, where you can buy various upgrades.",
+            "Turn your ores into more valuable ingots.",
+            "The conveyor belt. Tap ores to collect.",
+            "Inventory, where all your ores end up."
         ]
     },
     {
@@ -161,7 +173,9 @@
         "title": "Tree Cutter",
         "byline": "Browser game created with HTML, CSS and JavaScript",
         "description": [
-            "Tree Cutter is my very first project. It is what got me started on this journey."
+            "Tree Cutter is my very first project, what got me started on this journey. The game is an incremental, inspired by Cookie Clicker. The object is simply to cut the tree, get wood, and sell that wood for cash.",
+            "Being my first ever coding project, Tree Cutter has quite a messy codebase. In the initial version of the game, I had a singular JavaScipt file for all of the game's logic, a single sheet of CSS for the styles, as well as a single HTML document. Eventually I realized all of these could be split into as many files as I wanted.",
+            "The game was never finished, but that's fine. I am forever grateful that I dared try at all, the result is what I assume will be a lifelog passion."
         ],
         "technologies": [
             "HTML",
@@ -175,6 +189,10 @@
         "gallery": [
             "project-images/tree-cutter-0.png",
             "project-images/tree-cutter-1.png"
+        ],
+        "gallery_captions": [
+            "The game features five different menus: resources, upgrades, the titular tree, business and navigation.",
+            "The game also features a stock market that reacts to an in-game news ticker."
         ]
     }
 ]
