@@ -18,7 +18,7 @@ export default function JokeCentralDeleteMe() {
             <h1 style={titleStyle}>Delete your Joke Central account</h1>
 
             <p style={sectionStyle}>
-                In order to delete your account, you must send an email to <u>contact@funlibs.app</u>.
+                In order to delete your account, you must send an email to <u>contact.joke.central@gmail.com</u>.
                 <br />
                 The mail needs to contain your username.
             </p>
