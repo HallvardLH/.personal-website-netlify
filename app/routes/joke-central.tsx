@@ -6,12 +6,12 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
     return [
-        { title: "Daily Jokes | Hallvard Hetlelid" },
+        { title: "Joke Central | Hallvard Hetlelid" },
     ];
 };
 
 export const loader = async () => {
-    const project = projectsData.find((p) => p.id === "daily-jokes");
+    const project = projectsData.find((p) => p.id === "joke-central");
 
     if (!project) {
         throw new Response("Not Found", { status: 404 });
@@ -19,7 +19,7 @@ export const loader = async () => {
     return json({ project });
 };
 
-export default function DailyJokes() {
+export default function JokeCentral() {
     const { project } = useLoaderData<typeof loader>();
     return (
         <Project project={project}

@@ -14,7 +14,7 @@
 }
 
 .navbar-inner a:hover {
-    color: hotpink;
+    color: var(--secondary-color);
     font-size: 1.25rem;
 }
 

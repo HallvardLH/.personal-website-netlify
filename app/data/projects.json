@@ -12,9 +12,8 @@
             "TypeScript",
             "Supabase"
         ],
-        "date": "October 2023 - August 2024",
+        "date": "March 2024 - August 2024",
         "github": "https://github.com/Albretsen/FunLibs",
-        "demo": "https://yourwebsite.com/demo",
         "play_store": "https://play.google.com/store/apps/details?id=com.asgalb.FunLibs",
         "app_store": "https://apps.apple.com/us/app/fun-libs/id6462502166",
         "image": "project-images/fun-libs-0-feature.png",
@@ -31,6 +30,41 @@
             "The resulting lib.",
             "User can create their own libs and post them for others to play.",
             "A user profile."
+        ]
+    },
+    {
+        "id": "joke-central",
+        "title": "Joke Central",
+        "byline": "Joke-sharing app developed with React Native and Supabase",
+        "description": [
+            "Joke Central lets users explore a library of over 10,000 jokes, create their own, and enjoy jokes shared by the community. It's like social media but focused entirely on humor!",
+            "Development began in early 2024 during a sprint session with Asgeir Albretsen and I. We moved from concept to design in Figma, embracing a playful, dynamic design system that diverged from the more polished theme used in Fun Libs. Creating assets with a fun, 3D feel using CSS provided a refreshing front-end challenge, moving beyond my typical experience with professional-looking designs.",
+            "The app was originally created with a home-made backend hosted on a server of our own making, running on Asgeir's Raspberry PI. After having finished almost all of the functionality and developing the entire front-end, we realized that managing a homemade server brought technical limitations and accumulated technical debt.",
+            "In June of 2024, right at the finish-line, we decided to do a complete turn-around, build a backend using Supabase, redo the interface, and make the app a general jokes app, rather than focusing on daily contests. But at the same time our motivation to keep working on the project had burnt out completely.",
+            "In October 2024, my motivation returned, and I created a new codebase, reusing many front-end components from the original. Development with Supabase took about two weeks, and after overcoming some DevOps challenges, the app was finally released on the Play Store on November 1st of 2024."
+        ],
+        "technologies": [
+            "React Native",
+            "TypeScript",
+            "Supabase"
+        ],
+        "date": "October 2024 - November 2024",
+        "github": "https://github.com/HallvardLH/joke-central",
+        "play_store": "https://play.google.com/store/apps/details?id=com.whimsicalworks.jokecentral",
+        "image": "project-images/joke-central-0-feature.png",
+        "gallery": [
+            "project-images/joke-central-0.png",
+            "project-images/joke-central-1.png",
+            "project-images/joke-central-2.png",
+            "project-images/joke-central-3.png",
+            "project-images/joke-central-4.png"
+        ],
+        "gallery_captions": [
+            "The joke feed delivers a seemingly endless stream of jokes, inspired by the TikTok feed.",
+            "You can also browse jokes several at a time, finding the ones that suits you best.",
+            "Write and post your own jokes!",
+            "User profile.",
+            "The app also comes in dark mode!"
         ]
     },
     {
@@ -79,35 +113,6 @@
         "date": "November 2022 - January 2023",
         "github": "https://github.com/HallvardLH/tryggerehyring-website",
         "image": "project-images/tryggere-hyring-0-feature.png"
-    },
-    {
-        "id": "daily-jokes",
-        "title": "Daily Jokes",
-        "byline": "Joke-sharing app being developed with React Native",
-        "description": [
-            "Daily Jokes is an in development project by Asgeir Albretsen and I. It is our next app after Fun Libs, and we decided to go for a more playful design, as would befit an app about jokes.",
-            "The app was originally created with a home-made backend hosted on a server of our own making, running on Asgeir's Raspberry PI. After having finished almost all of the functionality and developing the entire front-end, we realized the app had some flaws. Chiefly, we realized that creating and hosting a server from scratch was a bit too large of a task, and we had accrued some tech-debt.",
-            "Right at the finish-line, we decided to do a complete turn-around, build a backend using Supabase, redo the interface, and make the app a general jokes app, rather than focusing on daily contests.",
-            "This work has been slow, due to busy schedules and perhaps a certain lack of motivation. But that motivation will come rushing back soon enough, just you wait!"
-        ],
-        "technologies": [
-            "React Native",
-            "TypeScript",
-            "Supabase"
-        ],
-        "date": "January 2024 - Present",
-        "github": "https://github.com/Albretsen/daily-jokes",
-        "image": "project-images/daily-jokes-0-feature.png",
-        "gallery": [
-            "project-images/daily-jokes-0.png",
-            "project-images/daily-jokes-1.png",
-            "project-images/daily-jokes-2.png"
-        ],
-        "gallery_captions": [
-            "Write a joke and publish it for everyone to read.",
-            "The home page, and the current daily contest.",
-            "Congrats, you won!"
-        ]
     },
     {
         "id": "rain-catcher",
