@@ -180,7 +180,7 @@
         "description": [
             "Tree Cutter is my very first project, what got me started on this journey. The game is an incremental, inspired by Cookie Clicker. The object is simply to cut the tree, get wood, and sell that wood for cash.",
             "Being my first ever coding project, Tree Cutter has quite a messy codebase. In the initial version of the game, I had a singular JavaScipt file for all of the game's logic, a single sheet of CSS for the styles, as well as a single HTML document. Eventually I realized all of these could be split into as many files as I wanted.",
-            "The game was never finished, but that's fine. I am forever grateful that I dared try at all, the result is what I assume will be a lifelog passion."
+            "The game was never finished, but that's fine. I am forever grateful that I dared try at all, the result is what I assume will be a lifelong passion."
         ],
         "technologies": [
             "HTML",
