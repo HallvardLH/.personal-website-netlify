@@ -14,8 +14,9 @@
 }
 
 .navbar-inner a:hover {
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
     font-size: 1.25rem;
+    text-decoration: underline;
 }
 
 .navbar-list {

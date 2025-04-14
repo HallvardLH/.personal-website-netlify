@@ -4,8 +4,22 @@ import BigCookie from "./BigCookie";
 import AnimateOnView from "../general/AnimateOnView";
 import ImageWithCaption from "../general/imageWithCaption/ImageWithCaption";
 import ProfilePicture from "../home/ProfilePicture";
+import { useMemo } from "react";
 
 export default function AboutMe() {
+    const age = useMemo(() => {
+        const birthDate = new Date('2001-06-27');
+        const today = new Date();
+        let years = today.getFullYear() - birthDate.getFullYear();
+
+        const hasHadBirthdayThisYear =
+            today.getMonth() > birthDate.getMonth() ||
+            (today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate());
+
+        if (!hasHadBirthdayThisYear) years--;
+
+        return years;
+    }, []);
     return (
         <div>
             <h1 className="header">About me</h1>
@@ -14,7 +28,7 @@ export default function AboutMe() {
                     <div>
                         <h2 className="subheader">Intro</h2>
                         <p className="normal-text about-me-section">
-                            My name is Hallvard Lygre Hetlelid. I am a 23-year-old front-end developer living in Bergen. I starting programming some time around the end of 2018 and since then, programming has been my biggest hobby. I try to always have some project going, something to work on whenever I have the time.
+                            My name is Hallvard Lygre Hetlelid. I am a {age}-year-old front-end developer living in Bergen. I starting programming some time around the end of 2018 and since then, programming has been my biggest hobby. I try to always have some project going, something to work on whenever I have the time.
                         </p>
                         <p className="normal-text about-me-section">
                             I am currently in the final year of my bachelor&apos;s degree in <a target="_blank" rel="noopener noreferrer" href="https://www.uib.no/studier/BASV-MIX">Media- and Interaction Design</a> at the University of Bergen. At the same time, I am taking additional courses each semester in order to gain a second bachelor&apos;s in <a target="_blank" rel="noopener noreferrer" href="https://www.uib.no/studier/BASV-INFO">Information Science</a>, which in many ways is more up my alley than Interaction Design.
@@ -42,7 +56,7 @@ export default function AboutMe() {
                             I never did finish Tree Cutter, but making it was a turning point. It showed me that the best way to learn coding isn&apos;t through books or tutorials—it&apos;s by *building* things. The only true way to become a programmer is to set a goal and then figure out whatever it takes to achieve it.
                         </p>
                         <p className="normal-text about-me-section">
-                            My passion for incremental games never faded. Six years later, I&apos;m working on a new project: <Link to="/emoji-tycoon">Emoji Tycoon</Link>. This time, with the experience I&apos;ve gained, I&apos;m aiming to build a fully-realized mobile game, complete with a robust front-end and back-end. I&apos;m planning to publish it by the end of 2024—unless life throws some unexpected curveballs! 😊
+                            My passion for incremental games never faded. Six years later, I&apos;m working on a new project: <Link to="/emoji-tycoon">Emoji Tycoon</Link>. This time, with the experience I&apos;ve gained, I&apos;m aiming to build a fully-realized mobile game, complete with a robust front-end and back-end.
                         </p>
                     </div>
                     <div>

@@ -28,7 +28,7 @@ export default function FunLibs() {
             customDescription={(
                 <>
                     <p className="project-description">
-                        Fun Libs is perhaps the project that I am the most proud of. Since its release in August of 2023, it has been downloaded over <strong>24,000 times</strong> with hundreds of daily active users (as of October 2024)!
+                        Fun Libs is perhaps the project that I am the most proud of. Since its release in August of 2023, it has been downloaded over <strong>33,000 times</strong> with hundreds of daily active users!
                     </p>
                     <p className="project-description">
                         The app was created in cooperation with <a target="_blank" rel="noopener noreferrer" href="https://github.com/Albretsen">Asgeir Albretsen</a>, and the initial MVP was developed during the summer of 2023. This coincided with my personal goal of learning a new framework in one summer, which ended up being <strong>React Native</strong>.
