@@ -28,10 +28,10 @@ export default function AboutMe() {
                     <div>
                         <h2 className="subheader">Intro</h2>
                         <p className="normal-text about-me-section">
-                            My name is Hallvard Lygre Hetlelid. I am a {age}-year-old front-end developer living in Bergen. I starting programming some time around the end of 2018 and since then, programming has been my biggest hobby. I try to always have some project going, something to work on whenever I have the time.
+                            My name is Hallvard Lygre Hetlelid, and I&apos;m a {age}-year-old software developer from Bergen. I started programming in late 2018, and what began as a hobby quickly became a passion I plan to carry for life.
                         </p>
                         <p className="normal-text about-me-section">
-                            I am currently in the final year of my bachelor&apos;s degree in <a target="_blank" rel="noopener noreferrer" href="https://www.uib.no/studier/BASV-MIX">Media- and Interaction Design</a> at the University of Bergen. At the same time, I am taking additional courses each semester in order to gain a second bachelor&apos;s in <a target="_blank" rel="noopener noreferrer" href="https://www.uib.no/studier/BASV-INFO">Information Science</a>, which in many ways is more up my alley than Interaction Design.
+                            I have two bachelor&apos;s degrees from the University of Bergen: one in <a target="_blank" rel="noopener noreferrer" href="https://www.uib.no/studier/BASV-INFO">Information Science</a> and one in <a target="_blank" rel="noopener noreferrer" href="https://www.uib.no/studier/BASV-MIX">Media- and Interaction Design</a>. Information Science fed my love for programming and understanding how technology works, while Interaction Design taught me to think creatively and put people at the center of what I make. Together, they&apos;ve shaped me into a developer who cares about both building things that work and making them easy and enjoyable to use.
                         </p>
                     </div>
                     <div className="about-me-profile-picture">
@@ -47,13 +47,14 @@ export default function AboutMe() {
                     <div>
                         <h2 className="subheader">How it started</h2>
                         <p className="normal-text about-me-section">
-                            Since 2015, back in secondary school, I&apos;ve been a huge fan of the incremental game <a target="_blank" rel="noopener noreferrer" href="https://orteil.dashnet.org/cookieclicker/">Cookie Clicker</a>. There&apos;s something uniquely satisfying about watching numbers climb higher and higher. Before long, I wanted to create my own incremental game—but at the time, I knew nothing about programming. It felt intimidating, almost impossible, like something I&apos;d never be able to do. It took a few years before I finally decided I just had to give it a shot.
+                            Since 2015, back in secondary school, I&apos;ve been a huge fan of the incremental game <a target="_blank" rel="noopener noreferrer" href="https://orteil.dashnet.org/cookieclicker/">Cookie Clicker</a>. There&apos;s something uniquely satisfying about watching numbers climb higher and higher. I realized I wanted to make my own incremental game, but I knew nothing about programming. I didn&apos;t know any programming, but I was determined to figure it out. With some questionable JavaScript and some shotty CSS, a prototype for a game called <Link to="/tree-cutter">Tree Cutter</Link> was born.
+                        </p>
+
+                        <p className="normal-text about-me-section">
+                            In 2018, I dove fully into developing Tree Cutter. I spent countless hours experimenting with CSS tricks, learning how to generate HTML programmatically with JavaScript, and Googling everything I didn&apos;t understand.
                         </p>
                         <p className="normal-text about-me-section">
-                            In 2018, I created my very first game: <Link to="/tree-cutter">Tree Cutter</Link>, an incremental game about, well, cutting trees. I poured countless hours into it, constantly experimenting with new CSS tricks, discovering how to generate HTML programmatically with JavaScript, and pretty much Googling everything I didn&apos;t understand. It was a messy, unpolished project, but it taught me so much about programming.
-                        </p>
-                        <p className="normal-text about-me-section">
-                            I never did finish Tree Cutter, but making it was a turning point. It showed me that the best way to learn coding isn&apos;t through books or tutorials—it&apos;s by *building* things. The only true way to become a programmer is to set a goal and then figure out whatever it takes to achieve it.
+                            I never did finish Tree Cutter, but making it was a turning point. It showed me that the best way to learn coding isn&apos;t through books or tutorials. It&apos;s by <b>building</b> things. The only true way to become a programmer is to set a goal and then figure out whatever it takes to achieve it.
                         </p>
                         <p className="normal-text about-me-section">
                             My passion for incremental games never faded. Six years later, I&apos;m working on a new project: <Link to="/emoji-tycoon">Emoji Tycoon</Link>. This time, with the experience I&apos;ve gained, I&apos;m aiming to build a fully-realized mobile game, complete with a robust front-end and back-end.
@@ -74,7 +75,7 @@ export default function AboutMe() {
                     <div>
                         <h2 className="subheader">My plants</h2>
                         <p className="normal-text about-me-section">
-                            Though my biggest hobby is programming, I also have a deep love for plants. Since moving into my own apartment, it has been steadily filled with more and more plants. My favorite are succulents, not only because they are low maintenance (although that is nice), also because they are simply very beautiful plants.
+                            Though my biggest hobby is programming, I also have a deep love for plants. Since moving into my own apartment, it has been steadily filled with more and more plants. My favorites are succulents, not only because they are low maintenance, also because they are simply very beautiful plants.
                         </p>
                     </div>
                     <ImageWithCaption caption="One of my many plants, and perhaps my favorite, the jade plant (crassula ovata)!">
