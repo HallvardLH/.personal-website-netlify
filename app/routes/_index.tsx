@@ -9,7 +9,7 @@ import projectsData from "~/data/projects.json";
 
 export const meta: MetaFunction = () => {
     return [
-        { title: "Hallvard Hetlelid | Front-end Developer" },
+        { title: "Hallvard Hetlelid | Software developer" },
         { name: "description", content: "Front page" },
     ];
 };

@@ -7,11 +7,10 @@ export default function ProfileHero() {
             <ProfilePicture />
             <div>
                 <p className="hero-header">
-                    {/* Hi, I&apos;m Hallvard, front-end developer and incremental game lover. */}
                     Hallvard Hetlelid
                 </p>
                 <p className="hero-byline">
-                    Front-end developer
+                    Software developer
                 </p>
                 <p className="hero-description">
                     Programming has been my hobby for about half a decade, and it has been immensely rewarding. There is nothing that feels better than knowing <strong>you built something with just your fingers on a keyboard.</strong>
